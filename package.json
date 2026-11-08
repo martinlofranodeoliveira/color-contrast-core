@@ -1,0 +1,14 @@
+{
+  "name": "color-contrast-core",
+  "version": "0.1.0",
+  "description": "WCAG 2.x relative luminance and contrast ratio for sRGB hex colors. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/contrast.test.js",
+    "demo": "node bin/contrast.mjs --assert"
+  }
+}
